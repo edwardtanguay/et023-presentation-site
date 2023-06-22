@@ -44,16 +44,29 @@ nav ul {
   width: 300vw;
 }
 .slides #slide1 {
-  background-image: url("../images/background-blue-purple.jpg");
-  background-size: cover;
-}
-.slides .slide {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../images/background-blue-purple.jpg");
+  background-size: cover;
+  color: #ccc;
+}
+.slides #slide2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slides #slide2 img {
+  height: 100%;
+  width: 50vw;
+}
+.slides #slide2 div.text {
+  width: 50vw;
+  text-align: center;
+}
+.slides .slide {
   font-size: 12vh;
-  background-color: orange;
-  outline: 3px solid navy;
+  background-color: #fff;
   width: 100vw;
   height: 100vh;
   color: navy;
