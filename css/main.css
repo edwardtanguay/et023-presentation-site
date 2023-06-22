@@ -64,6 +64,13 @@ nav ul {
   width: 50vw;
   text-align: center;
 }
+.slides #slide3 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .slides .slide {
   font-size: 12vh;
   background-color: #fff;
