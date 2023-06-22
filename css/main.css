@@ -26,7 +26,7 @@ h1 nav ul {
   gap: 2rem;
 }
 h1 nav ul a {
-  color: rgb(212, 212, 120);
+  color: rgb(218, 170, 82);
   text-decoration: none;
 }
 
@@ -88,6 +88,48 @@ nav ul {
   color: #000;
   text-shadow: 5px 5px 13px #ccc;
   width: 100%;
+}
+.slides #slide4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(199, 155, 74);
+}
+.slides #slide5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(145, 207, 132);
+}
+.slides #slide6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(151, 115, 149);
+}
+.slides #slide7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(236, 196, 169);
+}
+.slides #slide8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(105, 113, 153);
+}
+.slides #slide9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(198, 116, 209);
 }
 .slides .slide {
   font-size: 12vh;
