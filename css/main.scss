@@ -18,6 +18,10 @@ h1 {
 .slides {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas: "slide1 slide2 slide3"
+						 "slide4 slide5 slide6"
+						 "slide7 slide8 slide9";
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	width: 300vw;
