@@ -51,6 +51,11 @@ nav {
 	flex-wrap: wrap;
 	width: 300vw;
 
+	#slide1 {
+		background-image: url('../images/background-blue-purple.jpg');
+		background-size: cover;
+	}
+
 	.slide {
 		display: flex;
 		justify-content: center;
@@ -62,8 +67,6 @@ nav {
 		height: 100vh;
 		color: navy;
 		position: relative;
-		background-image: url('../images/background.png');
-		background-position: 0 5rem;
 
 		ul {
 			li {
