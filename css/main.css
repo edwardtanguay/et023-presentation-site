@@ -10,11 +10,28 @@ body {
   position: relative;
 }
 
+h1 {
+  color: #ccc;
+  background-color: navy;
+  padding: 1rem;
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 5rem;
+}
+h1 nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
 nav {
   position: absolute;
   z-index: 2;
-  top: 0;
-  left: 0;
+  top: 1rem;
+  left: 1rem;
+}
+nav ul {
+  list-style: none;
 }
 
 .slides {
@@ -37,6 +54,8 @@ nav {
   height: 100vh;
   color: navy;
   position: relative;
+  background-image: url("../images/background.png");
+  background-position: 0 5rem;
 }
 .slides .slide ul li {
   font-size: 1rem;
