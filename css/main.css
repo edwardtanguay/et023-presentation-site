@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+}
+
+h1 {
+	color: navy;
+	background-color: gold;
+	padding: 1rem;
+}
+
+.slides {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.slide {
+	background-color: orange;
+	border: 1px solid navy;
+	width: 30rem;
+}
