@@ -3,20 +3,26 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	// transition: ease-in 400ms;
-	overflow-y: hidden;
-	overflow-x: hidden;
+	// overflow-y: hidden;
+	// overflow-x: hidden;
 }
 
 body {
 	font-family: arial;
+	position: relative;
 }
 
-h1 {
-	color: #ccc;
-	background-color: navy;
-	padding: 1rem;
-	width: 300vw;
+// h1 {
+// 	color: #ccc;
+// 	background-color: navy;
+// 	padding: 1rem;
+// }
+
+nav {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
 }
 
 .slides {
@@ -42,7 +48,13 @@ h1 {
 		color: navy;
 		position: relative;
 
-		a {
+		ul {
+			li {
+				font-size: 1rem;
+			}
+		}
+
+		a.next {
 			position: absolute;
 			bottom: 7rem;
 			right: 6rem;

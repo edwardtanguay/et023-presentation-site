@@ -3,19 +3,18 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 body {
   font-family: arial;
+  position: relative;
 }
 
-h1 {
-  color: #ccc;
-  background-color: navy;
-  padding: 1rem;
-  width: 300vw;
+nav {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
 }
 
 .slides {
@@ -39,7 +38,10 @@ h1 {
   color: navy;
   position: relative;
 }
-.slides .slide a {
+.slides .slide ul li {
+  font-size: 1rem;
+}
+.slides .slide a.next {
   position: absolute;
   bottom: 7rem;
   right: 6rem;
@@ -49,6 +51,6 @@ h1 {
   padding: 1rem 1.5rem;
   border-radius: 1rem;
 }
-.slides .slide a color, .slides .slide a:active, .slides .slide a:visited, .slides .slide a:link {
+.slides .slide a.next color, .slides .slide a.next:active, .slides .slide a.next:visited, .slides .slide a.next:link {
   color: #000;
 }/*# sourceMappingURL=main.css.map */
