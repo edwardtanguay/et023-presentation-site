@@ -9,19 +9,23 @@ body {
 }
 
 h1 {
-	color: navy;
-	background-color: gold;
+	color: #ccc;
+	background-color: navy;
 	padding: 1rem;
+	width: 300vw;
 }
 
 .slides {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	width: 300vw;
 }
 
 .slide {
 	background-color: orange;
-	border: 1px solid navy;
-	width: 30rem;
+	outline: 3px solid navy;
+	width: 100vw;
+	height: 100vh;
 }
